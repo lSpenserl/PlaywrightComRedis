@@ -1,0 +1,28 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Testes e cobertura
+coverage/
+*.zip
+*.tar.gz
+
+# Logs e arquivos temporarios
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.cache/
+.DS_Store
+Thumbs.db
+
+# Configuracoes locais e segredos
+.env
+.env.*
+!.env.example

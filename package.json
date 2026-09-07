@@ -1,0 +1,28 @@
+{
+  "name": "qatw-primeira-edicao-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lSpenserl/PlaywrightComRedis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lSpenserl/PlaywrightComRedis/issues"
+  },
+  "homepage": "https://github.com/lSpenserl/PlaywrightComRedis#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0"
+  },
+  "dependencies": {
+    "bullmq": "^6.3.4",
+    "ioredis": "^6.0.0",
+    "pg-promise": "^12.7.1"
+  }
+}
